@@ -22,7 +22,7 @@ class LinesPress {
   public static function Commandos(){
     if ( defined('WP_CLI') && WP_CLI ) {
       // Include 'scaffold' commando
-      include_once( ABSPATH . 'wp-content/mu-plugins/wp-cli-scaffold/scaffold.php');
+      include_once( WPMU_PLUGIN_DIR . '/wp-cli-scaffold/scaffold.php');
     }
   }
 
