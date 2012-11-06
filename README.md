@@ -3,6 +3,8 @@ LinePress
 
 LinePress wants to address these issues
 
+* SASS support
+	* [wp-sass](https://github.com/sanchothefat/wp-sass)
 * LESS support
   * LESS parser
 	* css.less.php support (using php vars in less)
@@ -13,25 +15,26 @@ LinePress wants to address these issues
 * Performance boosts by minify
 	* Frontend minify js depending on constant
 	* Frontend minify css depending on constant  
-	Check out [Human Made - Minify](https://github.com/mattheu/MPH-Minify) 
+	Check out [Mattheu - Minify](https://github.com/mattheu/MPH-Minify) 
 * Handy templating function
  * Parse image tag according to html5 standard
  * DRY Templating like Roots
    http://scribu.net/wordpress/theme-wrappers.html
+   See [jumpingfrog](https://github.com/linepress/jumpingfrog) Roots inspired
 * Options settings file (automatically update settings) (WP CLI ?)
 * Child theme implementation for project specific styles / templating / layout
 * Clean up the wp head like Roots / Bones do
 * PHP debug function that parses below the admin bar and above the header. 
- * Checkout [Human Made - dev](https://github.com/rbl00/hm-dev)  
+ * Checkout … what linke?
 * Environment (dev/test/stage/prod)  
- * Checkout [wp-cli scaffold ](https://github.com/linepress/wp-cli-scaffold)  
-* Bootstrap support
+ 	* Checkout [wp-tools bash script ](https://github.com/linepress/wp-tools)  
+
 
 ## WP CLI Scaffolding
 See [wp-cli scaffold](https://github.com/linepress/wp-cli-scaffold/)
 
 ## WP CLI Other
-* database migrations  
+* Database migrations  
 http://duncanjbrown.com/migrate-your-wp-database-in-one-command/
 
 # Crystalizing the project goals
